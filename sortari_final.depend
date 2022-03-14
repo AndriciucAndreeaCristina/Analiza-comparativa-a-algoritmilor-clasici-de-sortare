@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1647217009 source:c:\users\user\onedrive\desktop\facultate\semestru 2\sd\teme\sortari_final\main.cpp
+	<iostream>
+	<fstream>
+	<chrono>
+	<ctime>
+	<vector>
+	<algorithm>
+	<iomanip>
+	<limits>
+	<random>
+	<functional>
+
