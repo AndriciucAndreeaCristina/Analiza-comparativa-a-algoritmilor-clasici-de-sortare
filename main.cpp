@@ -624,7 +624,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     ///verify if the array is sorted
     vector <long long> a = v;
     if(check_sorted(v, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<'\n';
@@ -639,7 +639,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_2.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -653,7 +653,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_3.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -667,7 +667,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_4.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -682,7 +682,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_5.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -696,7 +696,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_6.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -711,7 +711,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_7.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -725,7 +725,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_8.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -739,7 +739,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_9.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -753,7 +753,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_11.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -767,7 +767,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_12.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -781,7 +781,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_13.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -795,7 +795,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_13.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -810,7 +810,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_15.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -824,7 +824,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_16.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
@@ -838,14 +838,14 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
     cout << "Time taken to sort: " <<(float)duration_17.count()/1000 << " milliseconds" << endl;
     ///verify if the array is sorted
     if(check_sorted(v, n) && check_with_stl(v, a, n))
-        cout<<"The array was sorted succesfully!\n";
+        cout<<"The array was sorted successfully!\n";
     else
         cout<<"Sorting unsuccessful!\n";
     cout<<"\n";
 
     cout<<"-----------QUICKSORT(dinamic pivot)-----------\n";
     v = copy;
-    if(n<200000 || maxx < 20000000)
+    if(maxx <= 2000000000000)
     {
         auto start_18 = system_clock::now();
         Mquicksort(v, 0, n-1, 0);
@@ -854,7 +854,7 @@ void all_sorts(vector <long long>& v, long long n, long long maxx)
         cout << "Time taken to sort: " <<(float)duration_18.count()/1000 << " milliseconds" << endl;
         ///verify if the array is sorted
         if(check_sorted(v, n) && check_with_stl(v, a, n))
-            cout<<"The array was sorted succesfully!\n";
+            cout<<"The array was sorted successfully!\n";
         else
             cout<<"Sorting unsuccessful!\n";
     }
