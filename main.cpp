@@ -245,18 +245,18 @@ void bottom_up_reheap(vector <long long>& v, long long n, long long i)
 
     ///j = leaf-search(v, n, i)
     long long j = i;
-    while(2*j<n-1)
+    while(2*j+2<=n-1)
     {
-        if(v[2*j]>v[2*j+1])
-            j = 2*j;
+        if(v[2*j+2]>v[2*j+1])
+            j = 2*j+2;
         else
             j = 2*j+1;
     }
-    if (2*j == n-1) j = n-1;
+    if (2*j+1 == n-1) j = 2*j+1;
 
     ///bottom-up search(i, j);
     while(v[i] > v[j])
-        j /= 2;
+        j = floor((j-1)/2);
 
     ///interchange(i, j), unde j = bottom-up serach(i, j)
     ///varianta 2
@@ -264,8 +264,8 @@ void bottom_up_reheap(vector <long long>& v, long long n, long long i)
     v[j] = v[i];
     while(j > i)
     {
-        swap(v[j/2], x);
-        j /= 2;
+        swap(v[floor((j-1)/2)], x);
+        j = floor((j-1)/2);
     }
 }
 
